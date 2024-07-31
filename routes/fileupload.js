@@ -4,7 +4,7 @@ const router=express.Router();
 
 const {localfile,imageuploa,videoupload,imagereduceupload}=require("../controller/localfileuplaod");
 
-// mapping
+// mapping:-
 
 router.post("/fileupload",localfile);
 
